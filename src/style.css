@@ -1,8 +1,54 @@
+nav
+{
+	font-family: Open Sans;
+	font-weight: Regular;
+	background: #C9B59C;
+}
+
+nav a
+{
+	color: white;
+}
+
+body
+{
+	background: linear-gradient(rgb(249, 248, 246, 0.88), rgb(249, 248, 246, 0.9)), url("https://www.pngplay.com/wp-content/uploads/9/Internet-Website-PNG-Photos.png");
+	bacgrkound: url();
+	background-color: #F9F8F6;
+}
+
+#loginCard, #registerCard
+{
+	background-color: #DEDED1;
+}
+
 #blog-page-title, .home-title
 {
 	font-family: Open Sans;
 	font-weight: Regular;
 	font-size: 8rem;
+	color: #B6AE9F;
+}
+
+.loginTitle, .registerTitle
+{
+	font-family: Open Sans;
+	font-weight: Regular;
+	font-size: 4rem;
+	color: #B6AE9F;
+}
+
+#home-router
+{
+	background: #C9B59C;
+	font-family: Open Sans;
+	font-weight: Bold;
+	color: white;
+}
+
+#home-router:hover 
+{
+  background: #A18D6D;
 }
 
 .home-subtitle
@@ -10,16 +56,74 @@
 	font-family: Open Sans;
 	font-weight: Regular;
 	font-size: 3rem;
+	color: #C5C7BC;
 }
 
 #addBlog
 {
+	background: #C9B59C;
+	font-family: Open Sans;
+	font-weight: Bold;
+	color: white;
 	font-size: 1.2rem;
+}
+
+#addBlog:hover
+{
+	background: #A18D6D;
+}
+
+#viewBlog
+{
+	background: #8FABD4;
+	font-family: Open Sans;
+	font-weight: Bold;
+	color: white;
+}
+
+#viewBlog:hover
+{
+	background: #4A70A9;
 }
 
 #blogCardUsername, #blogCardDate
 {
   margin-bottom: 0; 
+}
+
+#loginBtn, #registerBtn
+{
+	background-color: #8FABD4;
+	font-family: Open Sans;
+	font-weight: Bold;
+	color: white;
+}
+
+#loginBtnDanger, #registerBtnDanger
+{
+	font-family: Open Sans;
+	font-weight: Bold;
+	color: white;
+}
+
+#loginBtn:hover, #registerBtn:hover
+{
+	background-color: #4A70A9;
+}
+
+.card-header
+{
+	background-color: #F9F8F6;
+}
+
+.card
+{
+	background-color: #EFECE3;
+}
+
+.card-footer
+{
+	background-color: #DEDED1;
 }
 
 #deleteComment

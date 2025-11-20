@@ -64,8 +64,8 @@
 
 <template>
 	<form id="registerForm" v-on:submit.prevent="handleSubmit">
-	    <h1 class="my-4 text-center">Register</h1>
-	    <div class="container-fluid border rounded-3 m-3 p-3 w-75 mx-auto">
+	    <h1 class="registerTitle my-4 text-center">Register</h1>
+	    <div id="registerCard" class="container-fluid border rounded-3 m-3 p-3 w-75 mx-auto">
 	        <div class="mb-3">
 	            <label for="registerEmail" class="form-label">Username</label>
 	            <input 
@@ -110,8 +110,8 @@
 	            />
 	        </div>        
 
-	        <button type="submit" class="btn btn-primary w-100" v-if="isEnabled">Submit</button>
-	        <button type="submit" class="btn btn-danger w-100" disabled v-else>Please Enter Your Registration Details</button>
+	        <button id="registerBtn" type="submit" class="btn w-100" v-if="isEnabled">Submit</button>
+	        <button id="registerBtnDanger" type="submit" class="btn btn-danger w-100" disabled v-else>Please Enter Your Registration Details</button>
 	    </div>
 	</form>
 </template>

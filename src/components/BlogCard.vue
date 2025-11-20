@@ -30,7 +30,7 @@
                 <h5 id="blogCardTitle" class="card-title mb-4 text-dark">{{ blogData.title }}</h5>
             </div>
             <div class="card-footer d-flex justify-content-center">
-                <button class="btn btn-primary w-100" @click="goToDetails(blogData._id)">View Blog</button>
+                <button id="viewBlog" class="btn w-100" @click="goToDetails(blogData._id)">View Blog</button>
             </div>
         </div>
     </div>

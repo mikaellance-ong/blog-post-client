@@ -6,7 +6,7 @@
 
 <template>
     <!-- Navbar for website navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <!-- Website name on navbar -->
             <a class="navbar-brand" href="/">MindBloggle</a>

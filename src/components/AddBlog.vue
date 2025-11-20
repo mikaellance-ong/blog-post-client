@@ -79,7 +79,7 @@
 
 <template>
     <div>
-        <button id="addBlog" class="btn btn-primary mb-3" @click="openModal">Create Blog</button>
+        <button id="addBlog" class="btn mb-3" @click="openModal">Create Blog</button>
 
         <!-- Modal -->
         <div class="modal fade" :id="modalId" tabindex="-1" aria-labelledby="addBlogModalLabel" :inert="!isModalOpen" ref="modalRef">

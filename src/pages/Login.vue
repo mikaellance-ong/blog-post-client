@@ -67,8 +67,8 @@
 
 <template>
 	<form id="loginForm" v-on:submit.prevent="handleSubmit">
-		<h1 class="my-4 text-center">Login</h1>
-		<div class="container-fluid border rounded-3 m-3 p-3 w-75 mx-auto">
+		<h1 class="loginTitle my-4 text-center">Login</h1>
+		<div id="loginCard" class="container-fluid border rounded-3 m-3 p-3 w-75 mx-auto">
 			<div class="mb-3">
 				<label for="userEmail" class="form-label">Email address</label>
 				<input 
@@ -91,8 +91,8 @@
 				>
 			</div>
 
-			<button type="submit" class="btn btn-primary w-100"  v-if="isEnabled">Login</button>
-			<button type="submit" class="btn btn-danger w-100" disabled v-else>Login</button>
+			<button id="loginBtn" type="submit" class="btn w-100"  v-if="isEnabled">Login</button>
+			<button id="loginBtnDanger" type="submit" class="btn btn-danger w-100" disabled v-else>Login</button>
 		</div>
 	</form>
 </template>
