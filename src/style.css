@@ -30,6 +30,22 @@ body
 	color: #B6AE9F;
 }
 
+@media (max-width: 768px) 
+{
+    #blog-page-title, .home-title 
+    {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 480px) 
+{
+    #blog-page-title, .home-title 
+    {
+        font-size: 3rem;
+    }
+}
+
 .loginTitle, .registerTitle
 {
 	font-family: Open Sans;
